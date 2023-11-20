@@ -123,5 +123,4 @@ def main():
         log(request_file="SHELL INTERFACE", message="Error to create shell interface. Stopped MythShell", mode="ERROR")
 
 if __name__ == "__main__":
-    launch.Auth.auth()
     main()
